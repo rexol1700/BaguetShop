@@ -50,17 +50,11 @@ const modell = {
             title: "bolle", 
             allergiesId: [2, 3],
             availability: ["grønn", "gul", "rød"],
-            picture: [{
-                baguette: {
-                    document.getElementbyId
-                }
-            }]
+            picture: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.ctOcDD6EJEnLoOdLJv0NOAHaE6%3Fpid%3DApi&sp=1773839254T6bf5ab0563659579f2b58fcb16ba7417f0aa74bd6009986c8c487846a4468a09'
            
         }]
 
     }
 }
-    
 
-
-console.log(modell.data.products.picture[0].baguette)
+console.log(modell.data.products[0].picture)
