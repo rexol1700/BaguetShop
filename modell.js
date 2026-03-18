@@ -47,28 +47,20 @@ const modell = {
         products: [{
             pris: 20,
             id: 1,
-            title: "bolle" 
-            allergiesId: [2, 3]
-            availability: 
-            picture: 
+            title: "bolle", 
+            allergiesId: [2, 3],
+            availability: ["grønn", "gul", "rød"],
+            picture: [{
+                baguette: {
+                    document.getElementbyId
+                }
+            }]
            
-        }
-        
-    
-    
-    ]
+        }]
 
     }
 }
     
 
-allergies[allergiesId
-]
-const BeckaTerminal = {
-    OrderNr: [],
-    bestilling: [],
-    pickup: [],
-    completed: false
-}
 
-console.log(BeckaMeny.meny.matvare[1])
+console.log(modell.data.products.picture[0].baguette)
