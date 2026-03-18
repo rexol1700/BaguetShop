@@ -35,13 +35,14 @@ const modell = {
         }],
         cake: {
             taste: ["Sjokolade", "Ostekake", "Bløtkake"],
-            decore: [],
-            fill: []
+            decore: ["Wedding", "Birthday", "Welcome", "Valentine"],
+            fill: ["Chocolate Cream", "Strawberry Kiwi", "Brunsaus"]
         },
         orders: [{
-            id: null,
-            orderNr: null, 
-            pickup: null,
+            id: 0,
+            orderNr: "", 
+            date: "12:00",
+            time: "08/12",
             completed: false
         }],
         products: [{
@@ -49,7 +50,7 @@ const modell = {
             id: 1,
             title: "bolle", 
             allergiesId: [2, 3],
-            availability: ["grønn", "gul", "rød"],
+            availability: 10,
             picture: 'https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.ctOcDD6EJEnLoOdLJv0NOAHaE6%3Fpid%3DApi&sp=1773839254T6bf5ab0563659579f2b58fcb16ba7417f0aa74bd6009986c8c487846a4468a09'
            
         }]
